@@ -52,25 +52,33 @@ img {
 button {
   padding: 5px 20px;
   margin: 10px 0;
+
 }
 
 nav a {
   margin: 0 20px;
   padding: 10px;
-  color: black;
-  background-color: white;
-  border-radius: 10px;
-  border: 3px solid gray;
+  color: rgb(248, 239, 239);
+  background-color: rgba(236, 94, 198, 0.589);
+  border-radius: 15px;
+  border: 3px solid rgb(228, 17, 108);
   text-decoration: none;
 }
 
 nav a.active {
-color: white;
-  background-color: black;
-  font-weight: bold;
-  text-decoration: underline;
+color: rgb(0, 0, 0);
+  background-color: hsla(309, 78%, 61%, 0.578);
+
 }
 
 .errors {
   color: red;
+}
+
+nav ul {
+  display: flex;
+  gap: 10px;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
